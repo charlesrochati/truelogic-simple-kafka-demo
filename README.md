@@ -11,8 +11,8 @@
   # download this repo and cd into it, then run:
 
   # inside kafka_2.12-2.6.0
-  $ cd kafka_2.12-2.6.0 && bin/zookeeper-server-start.sh config/zookeeper.properties
-  $ cd kafka_2.12-2.6.0 && bin/kafka-server-start.sh config/server.properties
+  $ bin/zookeeper-server-start.sh config/zookeeper.properties
+  $ bin/kafka-server-start.sh config/server.properties
 ```
 
 ##### To create a topic, specifically a topic named `novice-players`
